@@ -1,4 +1,13 @@
 $(function () {
+  $("[data-fancybox]").fancybox({
+    youtube: {
+      controls: 0,
+      showinfo: 0,
+    },
+  });
+});
+
+$(function () {
   $(".menu-btn").on("click", function () {
     $(".header_navbar-list").toggleClass("active");
   });

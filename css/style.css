@@ -315,6 +315,7 @@ body {
     left: 85px;
     padding-top: 25px;
     padding-bottom: 30px;
+    width: 100%;
   }
   .header_navbar-list.active {
     transform: translateY(0);
@@ -417,6 +418,9 @@ body {
   .button {
     padding: 24px 24px;
   }
+  .header_logo {
+    display: none;
+  }
 }
 @media (max-width: 380px) {
   .container {
@@ -446,6 +450,10 @@ body {
   }
   .price_tag {
     margin-bottom: 20px;
+  }
+  .price_label {
+    font-size: 18px;
+    line-height: 21px;
   }
   .button {
     text-align: center;
